@@ -80,14 +80,11 @@ public class SampleMediaListFragment extends Fragment {
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear4/prog_index.m3u8", "bipbop advanced 1289x720 @ 1 Mbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear5/prog_index.m3u8", "bipbop advanced 1920x1080 @ 2 Mbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear0/prog_index.m3u8", "bipbop advanced 22.050Hz stereo @ 40 kbps");*/
-        mAdapter.addItem("http://121.135.198.97/ontv/90002/T90002_465_160702.ts", "http://121.135.198.97/ontv/90002/T90002_465_160702.ts");
-        mAdapter.addItem("http://121.135.198.97/ontv/34819/T34819_168_160703.ts", "http://121.135.198.97/ontv/34819/T34819_168_160703.ts");
-        mAdapter.addItem("http://121.135.198.97/ontv/91135/T91135_11_160703.ts", "http://121.135.198.97/ontv/91135/T91135_11_160703.ts");
-        mAdapter.addItem("http://121.135.198.97/ontv/91123/T91123_5_160703.ts", "http://121.135.198.97/ontv/91123/T91123_5_160703.ts");
         mAdapter.addItem("http://us.live.npvr.net/sj/mbc/sbs.stream/playlist.m3u8", "http://us.live.npvr.net/sj/mbc/sbs.stream/playlist.m3u8");
         mAdapter.addItem("http://121.135.198.97/ontv/91123/T91123_5_160703.m3u8", "http://121.135.198.97/ontv/91123/T91123_5_160703.m3u8");
         mAdapter.addItem("http://us.live3.npvr.net/2mYvf9BprzyUZW8SdaXxBTbvZzJNWywM/live.stream/playlist.m3u8", "http://us.live3.npvr.net/2mYvf9BprzyUZW8SdaXxBTbvZzJNWywM/live.stream/playlist.m3u8");
-
+        mAdapter.addItem("http://121.135.198.97/ontv/31599/T31599_356_160703.m3u8", "http://121.135.198.97/ontv/31599/T31599_356_160703.m3u8");
+        mAdapter.addItem("http://121.135.198.97/ontv/31599/T31599_356_160703.ts", "http://121.135.198.97/ontv/31599/T31599_356_160703.ts");
     }
 
     final class SampleMediaItem {
